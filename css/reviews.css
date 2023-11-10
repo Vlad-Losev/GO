@@ -1,0 +1,36 @@
+.reviews {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.reviews__title {
+  margin-bottom: 40px;
+}
+
+.reviews__item {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.reviews__item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.reviews__flex {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews__figure {
+  text-align: center;
+}
+
+.reviews__img {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 11px;
+}
+
+.reviews__p {
+  padding-top: 52px;
+}
