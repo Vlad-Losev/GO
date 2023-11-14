@@ -1,0 +1,98 @@
+.introduction {
+  height: 823px;
+  margin-bottom: 100px;
+}
+
+.introduction__container_relative {
+  position: relative;
+}
+
+.introduction__title {
+  font-size: 150px;
+  font-weight: 900;
+  letter-spacing: -15px;
+  line-height: 100%;
+}
+
+.introduction_p {
+  font-size: 28px;
+  line-height: 50px;
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.introduction__psevdo::before {
+  content: "";
+  display: inline-block;
+  width: 675px;
+  height: 762px;
+  position: absolute;
+  background-image: url(/img/Слой\ 1\ 1.png);
+  background-repeat: no-repeat;
+  right: 0;
+  top: 60px;
+}
+
+.introduction__block {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+  margin-bottom: 175px;
+}
+
+.introduction__block__1 {
+  width: 193px;
+  text-align: center;
+}
+
+.introduction__block__1_four {
+  color: #CD06FF;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.introduction__block__2 {
+  width: 166px;
+  text-align: center;
+}
+
+.introduction__block__2_new {
+  color: #CD06FF;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+
+.introduction__text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.introduction__link {
+  width: 374px;
+  height: 80px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  border-radius: 10px;
+  background: #6C0287;
+  padding: 25px 69px;
+}
+
+.introduction__arrow::after {
+  content: "";
+  display: inline-block;
+  width: 97px;
+  height: 97px;
+  background-image: url(/img/arrow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 46%;
+  bottom: -14%;
+}
