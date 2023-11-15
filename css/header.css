@@ -8,12 +8,31 @@
 
 .header__list {
   display: flex;
-  gap: 40px;
+  gap: 30px;
 
   font-size: 22px;
   font-weight: 400;
   line-height: 50px;
   text-transform: uppercase;
+}
+
+.header__link {
+  padding: 3px 5px;
+}
+
+.header__link:hover {
+  border-radius: 10px;
+  background: #6C0287;
+}
+
+.header__link:focus {
+  border-radius: 10px;
+  background: #6C0287;
+}
+
+.header__link:active {
+  border-radius: 10px;
+  background: #640AA3;
 }
 
 .header__btn {
@@ -27,4 +46,19 @@
   border-radius: 10px;
   border: 3px solid #CD06FF;
   padding: 9px 29px;
+}
+
+.header__btn:hover {
+  border: 3px solid #6C0287;
+  background: #6C0287;
+}
+
+.header__btn:focus {
+  border: 3px solid #6C0287;
+  background: #6C0287;
+}
+
+.header__btn:active {
+  border: 3px solid #000;
+  background: #640AA3;
 }

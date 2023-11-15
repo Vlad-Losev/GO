@@ -222,6 +222,38 @@
   line-height: 28px;
   text-transform: uppercase;
 
+  border: 3px solid transparent;
   border-radius: 10px;
-  padding: 16px 50px;
+  padding: 13px 47px;
+}
+
+.reservation__hall__label:hover {
+  border: 3px solid #640AA3;
+  background: #EADEED;
+  padding: 4px 12px 5px;
+}
+
+.reservation__hall__label:focus {
+  border: 3px solid #640AA3;
+  background: #FFF;
+  padding: 4px 12px 5px;
+}
+
+.reservation__hall__label:active {
+  border: 3px solid #FFF;
+  background: #6C0287;
+}
+
+.reservation__submit:hover {
+  border: 3px solid #6C0287;
+  background: #EADEED;
+}
+
+.reservation__submit:active {
+  background: #EADEED;
+}
+
+.reservation__submit:focus {
+  border: 3px solid #6C0287;
+  background: #FFF;
 }

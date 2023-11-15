@@ -26,7 +26,7 @@
   background-color: #440F51;
 }
 
-.faq__element:nth-child(odd)::after {
+/* .faq__element:nth-child(odd)::after {
   content: "";
   display: inline-block;
   width: 46px;
@@ -40,4 +40,37 @@
   width: 46px;
   height: 46px;
   background: url(/img/open.svg);
+} */
+.plus-w::after {
+  content: "";
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url(/img/open-purple.svg);
+  cursor: pointer;
+}
+
+.plus-p::after {
+  content: "";
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background: url(/img/open.svg);
+  cursor: pointer;
+}
+
+.plus-w:hover::after {
+  background: url(/img/open-p.svg);
+}
+
+.plus-p:hover::after {
+  background: url(/img/open-white-hover.png);
+}
+
+.plus-w:active::after {
+  background: url(/img/close-p.svg);
+}
+
+.plus-p:active::after {
+  background: url(/img/open-w.svg);
 }

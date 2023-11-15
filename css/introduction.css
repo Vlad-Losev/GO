@@ -88,11 +88,35 @@
 .introduction__arrow::after {
   content: "";
   display: inline-block;
-  width: 97px;
-  height: 97px;
+  width: 99px;
+  height: 99px;
   background-image: url(/img/arrow.svg);
   background-repeat: no-repeat;
   position: absolute;
   left: 46%;
   bottom: -14%;
+}
+
+.introduction__link:hover {
+  background: #840AA3;
+}
+
+.introduction__link:focus {
+  background: #840AA3;
+}
+
+.introduction__link:active {
+  background: #640AA3;
+}
+
+.introduction__arrow:hover::after {
+  background-image: url(/img/arrow-hover.svg);
+}
+
+.introduction__arrow:active::after {
+  background-image: url(/img/arrow-active.svg);
+}
+
+.introduction__arrow:focus::after {
+  border: 1px solid #CD06FF;
 }

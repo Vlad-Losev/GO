@@ -28,36 +28,28 @@
   margin-bottom: 38px;
 }
 
-.contacts__address_icon {
-  content: "";
-  display: inline-block;
-  width: 35px;
-  height: 32px;
-  background-image: url(/img/location.svg);
+.contacts__icon {
+  color: #CD06FF;
+}
+
+.contacts__icon:hover {
+  color: #EADEED;
+}
+
+.contacts__icon:focus {
+  color: #EADEED;
+}
+
+.contacts__icon:active {
+  color: #810b9e;
 }
 
 .contacts__phone {
   margin-bottom: 11px;
 }
 
-.contacts__phone_icon {
-  content: "";
-  display: inline-block;
-  width: 35px;
-  height: 32px;
-  background-image: url(/img/phone.svg);
-}
-
 .contacts__mail {
   margin-bottom: 35px;
-}
-
-.contacts__mail_icon {
-  content: "";
-  display: inline-block;
-  width: 35px;
-  height: 32px;
-  background-image: url(/img/envelope.svg);
 }
 
 .contacts__elem {
@@ -65,36 +57,16 @@
   gap: 26px;
 }
 
-.contacts__elem_vk {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-image: url(/img/vk.svg);
+.contacts__link:hover {
+  color: #EADEED;
 }
 
-.contacts__elem_telegram {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-image: url(/img/telegram.svg);
+.contacts__link:focus {
+  color: #EADEED;
 }
 
-.contacts__elem_pinterest {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-image: url(/img/pinterest.svg);
-}
-
-.contacts__elem_stum {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-image: url(/img/social-stumbleupon.svg);
+.contacts__link:active {
+  color: #CD06FF;
 }
 
 .contacts__text {
