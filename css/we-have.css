@@ -1,5 +1,5 @@
 .we-have {
-  margin-bottom: 100px;
+  margin-bottom: 170px;
 }
 
 .we-have__title_wrapper {
@@ -21,8 +21,24 @@
 }
 
 .we-have__item {
+  max-width: 380px;
+  max-height: 228px;
   position: relative;
+  transition-duration: 0.5s;
 }
+
+.we-have__item:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.we-have__img_padding {
+  padding-top: 70px;
+}
+
+/* .we-have__item:nth-child(2) {
+  padding-top: 70px;
+} */
 
 .we-have__figcap {
   font-size: 20px;
@@ -36,7 +52,8 @@
 
 .we-have__figcap_width1 {
   max-width: 197px;
-  bottom: 11px;
+  /* bottom: 11px; */
+  bottom: -61px;
 }
 
 .we-have__figcap_width2 {

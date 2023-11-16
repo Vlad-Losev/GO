@@ -25,3 +25,8 @@ h2 {
   /* padding: 30px; */
   margin: 0 auto;
 }
+
+button, a, a::after, label, div::after, div:hover::after ,svg {
+  transition-duration: 0.3s;
+  transition-property: color, background, border;
+}
