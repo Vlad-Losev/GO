@@ -1,7 +1,7 @@
-@import url(/css/header.css);
 @import url(/css/normalize.css);
 @import url(/css/global.css);
 @import url(/css/style.css);
+@import url(/css/header.css);
 @import url(/css/introduction.css);
 @import url(/css/we-have.css);
 @import url(/css/halls.css);
@@ -10,3 +10,7 @@
 @import url(/css/reviews.css);
 @import url(/css/faq.css);
 @import url(/css/contacts.css);
+@import url(/css/80vibes.css);
+@import url(/css/star-wars.css);
+@import url(/css/wild-west.css);
+@import url(/css/neon-style.css);

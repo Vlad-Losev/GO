@@ -26,21 +26,6 @@
   background-color: #440F51;
 }
 
-/* .faq__element:nth-child(odd)::after {
-  content: "";
-  display: inline-block;
-  width: 46px;
-  height: 46px;
-  background: url(/img/open-purple.svg);
-}
-
-.faq__element:nth-child(even)::after {
-  content: "";
-  display: inline-block;
-  width: 46px;
-  height: 46px;
-  background: url(/img/open.svg);
-} */
 .plus-w::after {
   content: "";
   display: inline-block;
@@ -73,4 +58,112 @@
 
 .plus-p:active::after {
   background: url(/img/open-w.svg);
+}
+
+@media (max-width: 1439px) {
+  .faq {
+    margin-bottom: 70px;
+  }
+
+  .faq__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 26px;
+  }
+
+  .faq__element {
+    /* max-width: 904px; */
+    height: 70px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 12px 20px 12px 25px;
+  }
+
+  .faq__element:nth-child(2n){
+    color: #1C1A1A;
+    background-color: #fff;
+  }
+
+  .faq__element:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .plus-p::after {
+    content: "";
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: url(/img/open-purple.svg);
+    cursor: pointer;
+  }
+
+  .plus-p:hover::after {
+    background: url(/img/open-p.svg);
+  }
+
+  .plus-p:active::after {
+    background: url(/img/close-p.svg);
+  }
+}
+
+@media (max-width: 930px) {
+  .faq__title {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  .faq__element {
+    max-width: 688px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 65px 12px 54px;
+  }
+}
+
+@media (max-width: 520px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+
+  .faq__title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .faq__element {
+    max-height: 46px;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 7px 13px 7px 10px;
+  }
+
+  .plus-p::after {
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+  }
+
+  .plus-w::after {
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .plus-w:hover::after {
+    background-size: 30px;
+  }
+  
+  .plus-w:active::after {
+    background-size: 30px;
+  }
+
+  .plus-p:hover::after {
+    background-size: 30px;
+  }
+
+  .plus-p:active::after {
+    background-size: 30px;
+  }
 }

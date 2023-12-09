@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #1B1A1B;
@@ -20,13 +24,33 @@ h2 {
   text-transform: uppercase;
 }
 
-.container {
-  max-width: 1180px;
-  /* padding: 30px; */
-  margin: 0 auto;
-}
-
 button, a, a::after, label, div::after, div:hover::after ,svg {
   transition-duration: 0.3s;
   transition-property: color, background, border;
+}
+
+.container {
+  max-width: 1700px;
+  padding: 0 130px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .container {
+    max-width: 1124px;
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 930px) {
+  .container {
+    max-width: 768px ;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    padding: 0 20px;
+  }
 }

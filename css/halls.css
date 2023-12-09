@@ -7,15 +7,34 @@
 }
 
 .halls__flex {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
+}
+
+.halls__vibes-80-img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.halls__star-wars {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.halls__wild-west {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.halls__neon-style {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 .halls__img {
   position: relative;
-  width: 580px;
-  height: 349px;
 }
 
 .halls__text {
@@ -26,9 +45,84 @@
   text-transform: uppercase;
   position: absolute;
   width: 100%;
-  top: calc(50% - 40px);
+  top: calc(50% - 80px);
 }
 
-.halls__star-wars {
-  position: relative;
+@media (max-width: 1339px) {
+  .halls {
+    margin-bottom: 70px;
+  }
+
+  .halls__title{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+  }
+
+  .halls__text {
+    font-size: 50px;
+    line-height: 60px;
+    top: calc(50% - 60px);
+  }
+}
+
+@media (max-width: 930px) {
+  .halls {
+    margin-bottom: 62px;
+  }
+
+  .halls__title{
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .halls__text {
+    font-size: 40px;
+    line-height: 50px;
+    top: calc(50% - 50px);
+  }
+}
+
+@media (max-width: 600px) {
+  .halls {
+    margin-bottom: 30px;
+  }
+
+  .halls__title{
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .halls__text {
+    font-size: 26px;
+    line-height: 34px;
+    top: calc(50% - 34px);
+  }
+
+  .halls__flex {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .halls__vibes-80-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .halls__star-wars {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .halls__wild-west {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .halls__neon-style {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
 }
