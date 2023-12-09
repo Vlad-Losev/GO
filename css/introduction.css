@@ -27,7 +27,7 @@
   width: 675px;
   height: 762px;
   position: absolute;
-  background-image: url(/img/Слой\ 1\ 1.png);
+  background-image: url(../img/Слой\ 1\ 1.png);
   background-repeat: no-repeat;
   right: 9%;
   top: 60px;
@@ -91,7 +91,7 @@
   display: inline-block;
   width: 99px;
   height: 99px;
-  background-image: url(/img/arrow.svg);
+  background-image: url(../img/arrow.svg);
   background-repeat: no-repeat;
   position: absolute;
   left: 46%;
@@ -111,11 +111,11 @@
 }
 
 .introduction__arrow:hover::after {
-  background-image: url(/img/arrow-hover.svg);
+  background-image: url(../img/arrow-hover.svg);
 }
 
 .introduction__arrow:active::after {
-  background-image: url(/img/arrow-active.svg);
+  background-image: url(../img/arrow-active.svg);
 }
 
 .introduction__arrow:focus::after {

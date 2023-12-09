@@ -31,7 +31,7 @@
   display: inline-block;
   width: 46px;
   height: 46px;
-  background: url(/img/open-purple.svg);
+  background: url(../img/open-purple.svg);
   cursor: pointer;
 }
 
@@ -40,24 +40,24 @@
   display: inline-block;
   width: 46px;
   height: 46px;
-  background: url(/img/open.svg);
+  background: url(../img/open.svg);
   cursor: pointer;
 }
 
 .plus-w:hover::after {
-  background: url(/img/open-p.svg);
+  background: url(../img/open-p.svg);
 }
 
 .plus-p:hover::after {
-  background: url(/img/open-white-hover.png);
+  background: url(../img/open-white-hover.png);
 }
 
 .plus-w:active::after {
-  background: url(/img/close-p.svg);
+  background: url(../img/close-p.svg);
 }
 
 .plus-p:active::after {
-  background: url(/img/open-w.svg);
+  background: url(../img/open-w.svg);
 }
 
 @media (max-width: 1439px) {
@@ -93,16 +93,16 @@
     display: inline-block;
     width: 46px;
     height: 46px;
-    background: url(/img/open-purple.svg);
+    background: url(../img/open-purple.svg);
     cursor: pointer;
   }
 
   .plus-p:hover::after {
-    background: url(/img/open-p.svg);
+    background: url(../img/open-p.svg);
   }
 
   .plus-p:active::after {
-    background: url(/img/close-p.svg);
+    background: url(../img/close-p.svg);
   }
 }
 

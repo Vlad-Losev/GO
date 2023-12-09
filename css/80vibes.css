@@ -2,7 +2,7 @@
   display: inline-block;
   width: 30px;
   height: 15px;
-  background-image: url(/img/Arrow-room.svg);
+  background-image: url(../img/Arrow-room.svg);
 }
 
 .come-back__text {
@@ -27,7 +27,7 @@
 }
 
 .room1__bg {
-  background-image: url(/img/bg-room1.png);
+  background-image: url(../img/bg-room1.png);
 }
 
 .banner__flex {

@@ -83,7 +83,7 @@
     display: inline-block;
     width: 87px;
     height: 55px;
-    background-image: url(/img/logo1024.svg);
+    background-image: url(../img/logo1024.svg);
   }
 
   .header__img {
@@ -124,7 +124,7 @@
     display: inline-block;
     width: 54px;
     height: 29px;
-    background-image: url(/img/header-menu.svg);
+    background-image: url(../img/header-menu.svg);
     margin-bottom: -10px;
   }
 }
@@ -141,7 +141,7 @@
   .burger-menu::after {
     width: 39px;
     height: 20px;
-    background-image: url(/img/header-menu-320.svg);
+    background-image: url(../img/header-menu-320.svg);
     margin: 0;
   }
 
@@ -153,6 +153,6 @@
   .header__link-img::before {
     width: 66px;
     height: 42px;
-    background-image: url(/img/header-logo-320.svg);
+    background-image: url(../img/header-logo-320.svg);
   }
 }
